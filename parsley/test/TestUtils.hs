@@ -55,6 +55,8 @@ deriving instance NFData Body
 deriving instance NFData Guard
 deriving instance NFData Stmt
 deriving instance NFData Dec
+deriving instance NFData BndrVis
+deriving instance NFData NamespaceSpecifier
 deriving instance NFData Clause
 deriving instance NFData Con
 deriving instance NFData Bang
